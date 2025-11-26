@@ -1,0 +1,10 @@
+.navbar {
+  background: linear-gradient(to right, #c8102e, #ff6b35);
+  padding: 1.5rem 0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: space-between; align-items: center; }
+.logo { color: white; font-size: 2rem; font-weight: bold; }
+.links { display: flex; gap: 2rem; }
+.link { color: white; text-decoration: none; font-weight: 600; padding: 0.5rem 1rem; border-radius: 8px; transition: 0.3s; }
+.link:hover, .link.active { background: rgba(255,255,255,0.2); }

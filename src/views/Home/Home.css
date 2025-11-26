@@ -1,0 +1,31 @@
+.home-container {
+  padding: 60px 20px;
+  text-align: center;
+}
+.home-title {
+  font-size: 3.5rem;
+  margin-bottom: 50px;
+  text-shadow: 3px 3px 15px rgba(0,0,0,0.6);
+  background: linear-gradient(to right, #ff6b35, #f7931e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 35px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+@media (min-width: 1200px) {
+  .teams-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (min-width: 900px) and (max-width: 1199px) {
+  .teams-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

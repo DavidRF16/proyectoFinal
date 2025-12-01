@@ -7,7 +7,7 @@ export default function Profile() {
         <h1>Perfil de Usuario</h1>
         <div className="profile-card">
           <img 
-            src="https://randomuser.me/api/portraits/men/32.jpg" 
+            src="https://randomuser.me/api/portraits/men/16.jpg" 
             alt="David Romero" 
             className="profile-img"
           />
